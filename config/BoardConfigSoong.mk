@@ -40,6 +40,7 @@ SOONG_CONFIG_kangosGlobalVars += \
     target_process_sdk_version_override \
     target_camera_needs_client_info \
     target_surfaceflinger_fod_lib \
+    target_uses_prebuilt_dynamic_partitions \
     uses_camera_parameter_lib
 
 SOONG_CONFIG_NAMESPACES += kangosNvidiaVars
@@ -76,6 +77,7 @@ SOONG_CONFIG_kangosQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PR
 SOONG_CONFIG_kangosQcomVars_uses_qcom_bsp_legacy := $(TARGET_USES_QCOM_BSP_LEGACY)
 SOONG_CONFIG_kangosQcomVars_uses_qti_camera_device := $(TARGET_USES_QTI_CAMERA_DEVICE)
 SOONG_CONFIG_kangosQcomVars_needs_camera_boottime_timestamp := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
+SOONG_CONFIG_kangosGlobalVars_target_uses_prebuilt_dynamic_partitions := $(TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
