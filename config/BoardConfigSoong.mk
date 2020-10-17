@@ -34,6 +34,7 @@ SOONG_CONFIG_kangosGlobalVars += \
     additional_gralloc_10_usage_bits \
     bootloader_message_offset \
     has_legacy_camera_hal1 \
+    has_memfd_backport \
     needs_netd_direct_connect_rule \
     target_init_vendor_lib \
     target_ld_shim_libs \
@@ -78,6 +79,7 @@ SOONG_CONFIG_kangosQcomVars_uses_qcom_bsp_legacy := $(TARGET_USES_QCOM_BSP_LEGAC
 SOONG_CONFIG_kangosQcomVars_uses_qti_camera_device := $(TARGET_USES_QTI_CAMERA_DEVICE)
 SOONG_CONFIG_kangosQcomVars_needs_camera_boottime_timestamp := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_kangosGlobalVars_target_uses_prebuilt_dynamic_partitions := $(TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS)
+SOONG_CONFIG_kangosGlobalVars_has_memfd_backport := $(TARGET_HAS_MEMFD_BACKPORT)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
