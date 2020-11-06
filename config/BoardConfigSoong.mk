@@ -33,6 +33,7 @@ SOONG_CONFIG_NAMESPACES += kangosGlobalVars
 SOONG_CONFIG_kangosGlobalVars += \
     additional_gralloc_10_usage_bits \
     bootloader_message_offset \
+    disable_postrender_cleanup \
     has_legacy_camera_hal1 \
     has_memfd_backport \
     needs_netd_direct_connect_rule \
@@ -80,6 +81,7 @@ SOONG_CONFIG_kangosQcomVars_uses_qti_camera_device := $(TARGET_USES_QTI_CAMERA_D
 SOONG_CONFIG_kangosQcomVars_needs_camera_boottime_timestamp := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
 SOONG_CONFIG_kangosGlobalVars_target_uses_prebuilt_dynamic_partitions := $(TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS)
 SOONG_CONFIG_kangosGlobalVars_has_memfd_backport := $(TARGET_HAS_MEMFD_BACKPORT)
+SOONG_CONFIG_kangosGlobalVars_disable_postrender_cleanup := $(TARGET_DISABLE_POSTRENDER_CLEANUP)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
