@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     WeatherIcons \
     DU-Themes \
-    SimpleDeviceConfig
+    SimpleDeviceConfig \
+    StitchImage
 
 # Updates
 ifeq ($(KANGOS_BUILDTYPE),OFFICIAL)
