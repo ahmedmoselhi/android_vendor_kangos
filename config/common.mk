@@ -20,7 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/kangos/overlay/common
 
 ifeq ($(USE_GAPPS), true)
-$(call inherit-product, vendor/gapps/gapps.mk)
+$(call inherit-product, vendor/gapps/pixel-gapps.mk)
 endif
 
 ifeq ($(PRODUCT_USES_QCOM_HARDWARE), true)
