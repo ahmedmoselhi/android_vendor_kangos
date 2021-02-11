@@ -14,6 +14,7 @@
 
 include vendor/kangos/config/fingerprint.mk
 include vendor/kangos/config/version.mk
+include vendor/themes/common.mk
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/kangos/overlay
 DEVICE_PACKAGE_OVERLAYS += \
