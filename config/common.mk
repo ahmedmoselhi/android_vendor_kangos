@@ -16,6 +16,10 @@ include vendor/kangos/config/fingerprint.mk
 include vendor/kangos/config/version.mk
 include vendor/themes/common.mk
 
+ifeq ($(TARGET_OPLAUNCHER), true)
+include vendor/oplauncher/OPLauncher.mk
+endif
+
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/kangos/overlay
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/kangos/overlay/common
