@@ -757,7 +757,7 @@ function push_update(){(
 
     cd $devices_dir
     git add $target_device && git commit -m "Update $target_device"
-    git push https://github.com/KangOS-Devices/official_devices.git HEAD:r10.0
+    git push https://github.com/KangOS-Device/official_devices.git HEAD:eleven
     rm -rf $devices_dir
 )}
 
