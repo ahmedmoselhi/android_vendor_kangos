@@ -1,4 +1,4 @@
-# Copyright (C) 2019 KangOS
+# Copyright (C) 2021 KangOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-KANGOS_CODENAME := R-Fury
-KANGOS_REVISION := 11
-KANGOS_SUBREVISION := 6
+KANGOS_CODENAME := R-Stout
+KANGOS_REVISION := 2
+KANGOS_SUBREVISION := 0
 
 KANGOS_VERSION := $(KANGOS_REVISION).$(KANGOS_SUBREVISION)
 KANGOS_BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
