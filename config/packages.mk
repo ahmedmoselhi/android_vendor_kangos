@@ -124,4 +124,8 @@ endif
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 -include packages/apps/Plugins/plugins.mk
