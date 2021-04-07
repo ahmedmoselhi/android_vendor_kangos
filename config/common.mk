@@ -120,6 +120,9 @@ include vendor/revengeui/config.mk
 PRODUCT_COPY_FILES += \
     vendor/kangos/prebuilt/common/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml
 
+#Safetynet
+TARGET_FORCE_BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
+
 # Priv-app permissions
 ifeq ($(KANGOS_BUILDTYPE),OFFICIAL)
 PRODUCT_COPY_FILES += \
